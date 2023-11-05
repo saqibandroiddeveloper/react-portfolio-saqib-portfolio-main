@@ -1,0 +1,36 @@
+
+{
+    "projects": [  
+      {
+        "date": "2/05/2023",
+        "title": "GPS",
+        "description": "This is state-of-the-art GPS live navigation application designed to provide users with a seamless and feature-rich experience for all their location-related needs",
+        "url": "https://play.google.com/store/apps/details?id=com.gps.map.navigation.live.map.gss",
+        "imgSrc": "src/assets/gps.jpg"
+      },
+      {
+        "date": "2/06/2023",
+        "title": "Document Scanner",
+        "description": "Comprehensive document scanner that leverages cutting-edge technologies and libraries such as Hilt, Room DB, OpenCV, and CamView to provide a robust and efficient solution for scanning",
+        "url": "https://play.google.com/store/apps/details?id=com.dream.scanner.sat",
+        "imgSrc": "src/assets/docuscanner.webp"
+      },
+  
+      {
+        "date": "15/09/2023",
+        "title": "Advance Calculators",
+        "description": "This is a versatile calculator application that goes above and beyond the basics.",
+        "url": "https://play.google.com/store/apps/details?id=com.calculator.tools.converter.sat",
+        "imgSrc": "src/assets/calculator.webp"
+      },
+
+      {
+        "date": "15/09/2023",
+        "title": "Music Player",
+        "description": "This is a versatile and powerful platform for music enthusiasts. Built using Hilt for dependency injection and featuring a wide array of functionalities, including different themes, services, playlist management",
+        "url": "https://github.com/saqibandroiddeveloper/MusicPlayer",
+        "imgSrc": "src/assets/musicplayer.jpg"
+      }
+
+    ]
+  }

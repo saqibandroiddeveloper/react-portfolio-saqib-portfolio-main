@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Roboto:wght@100;300;400;700;900&display=swap');
+
+@import "statics";
+@import "header";
+@import "home";
+@import "animations";
+@import "work";
+@import "timeline";
+@import "services"; 
+@import "testimonial"; 
+@import "contact"; 
+@import "footer";
+@import "mediaquery";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $text2;
+    scroll-behavior: smooth; //By default, when you click on an anchor link that jumps to a different section of the page, the browser will immediately jump to that section without any animation or transition.With scroll-behavior: smooth, the browser will instead animate the scrolling motion between the current position and the target position.
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: $color1;
+    overflow-x: hidden; //in some cases, along the x-axis you may want to hide the overflowed content instead of displaying a scrollbar.
+}
+
+.disableBtn{
+    color: $color6 !important;
+    background-color: rgb(237,237,237) !important;
+    cursor: not-allowed !important; // sets the cursor type to a "not allowed" icon when the user hovers over an element.
+}
